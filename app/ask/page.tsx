@@ -12,7 +12,7 @@ export default function AskPage() {
     setResponse(null);
 
     try {
-      const res = await fetch("https://TU_BACKEND_REALWEY/api/ask", {
+      const res = await fetch("https://https://telemetr-a-production.up.railway.app/api/ask/api/ask", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ query }),
