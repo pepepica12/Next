@@ -1,4 +1,4 @@
-xport const metadata = {
+export const metadata = {
   metadataBase: new URL("https://nefosys.vercel.app"),
   title: {
     default: "Nefosys",
