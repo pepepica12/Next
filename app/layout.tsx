@@ -1,4 +1,4 @@
-	mport type { Metadata } from "next";
+import type { Metadata } from "next";
 import { Inter, Roboto_Mono } from "next/font/google";
 import "./globals.css";
 
